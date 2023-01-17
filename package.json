@@ -1,0 +1,27 @@
+{
+  "name": "project-node-typescript-api",
+  "version": "1.0.0",
+  "description": "TypeScript NodeJS API",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewrdev/project-node-typescript-api.git"
+  },
+  "keywords": [
+    "typescript",
+    "nodejs",
+    "api"
+  ],
+  "author": "Andrew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewrdev/project-node-typescript-api/issues"
+  },
+  "homepage": "https://github.com/andrewrdev/project-node-typescript-api#readme"
+}
