@@ -7,7 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "npm run build && node dist/src/index.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +25,13 @@
   "bugs": {
     "url": "https://github.com/andrewrdev/project-node-typescript-api/issues"
   },
-  "homepage": "https://github.com/andrewrdev/project-node-typescript-api#readme"
+  "homepage": "https://github.com/andrewrdev/project-node-typescript-api#readme",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
 }
